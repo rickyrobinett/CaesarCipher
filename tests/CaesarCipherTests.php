@@ -1,7 +1,5 @@
 <?php
 
-require(__DIR__ . '/../vendor/autoload.php');
-
 use CaesarCipher\CaesarCipher;
 
 class CaesarCipherTests extends \PHPUnit_Framework_TestCase {
