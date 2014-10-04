@@ -1,0 +1,26 @@
+{
+    "name": "caesarcipher/caesarcipher",
+    "description": "A PHP package for encoding, decoding and cracking the Caesar shift cipher",
+    "keywords": ["Caesar cipher", "cipher"],
+    "homepage": "https://github.com/rickyrobinett/CaesarCipher",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricky Robinett",
+            "email": "ricky.robinett@gmail.com",
+            "homepage": "http://rickyrobinett.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": { "CaesarCipher": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
