@@ -29,6 +29,7 @@ $cipher->decode($message,5);
 
 Cracking a ciphertext without knowing the offset:
 ```php
+$cipher = new CaesarCipher();
 $cipher_text = "Bj qfhp ymj rtynts yt rtaj yt ymj sjb gjfy!";
 $crack_text = $cipher->crack($cipher_text);
 ```
